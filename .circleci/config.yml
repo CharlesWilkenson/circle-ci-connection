@@ -28,7 +28,7 @@ orbs:
 #             - print_hello
 
 jobs:
-  my_jobs:
+  my_job:
     docker: 
       - image: circleci/node:13.8.0
     steps:
@@ -41,4 +41,4 @@ jobs:
 worksflow:
    my_worklow:
       jobs:
-        - my_jobs
+        - my_job
