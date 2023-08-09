@@ -32,7 +32,7 @@ jobs:
     docker: 
       - image: circleci/node:13.8.0
     steps:
-      - run: reurn 1
+      - run: return 1
       - run:
         name: on error
         command: echo "Hello Error"
@@ -41,4 +41,4 @@ jobs:
 worksflow:
    my_worklow:
       jobs:
-        - my_job
+        - my_jobs
